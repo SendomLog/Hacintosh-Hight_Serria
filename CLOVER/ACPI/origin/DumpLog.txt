@@ -1,0 +1,132 @@
+20:868  19:380  Found BIOS RSDP at FF000
+20:868  0:000  Printing ACPI tables from RSDP FF000 ...
+20:868  0:000   FF000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+20:868  0:000    (Xsdt: BB74E090, Rsdt: BB74E028)
+20:868  0:000    BB74E090: 'XSDT', 'A M I', Rev: 1, Len: 156
+20:868  0:000    BB74E028: 'RSDT', 'A M I', Rev: 1, Len: 96
+20:868  0:000    Tables in Xsdt: 15
+20:868  0:000    0. BB784528: 'FACP', 'A M I', Rev: 5, Len: 268
+20:868  0:000        (Dsdt: BB74E1C8, Facs: BD5E5F80, XDsdt: BB74E1C8, XFacs: 0)
+20:868  0:000        BB74E1C8: 'DSDT', 'A M I', Rev: 2, Len: 222048
+20:872  0:003        BD5E5F80: 'FACS', Ver: 2, Len: 64
+20:872  0:000    1. BB784638: 'APIC', 'A M I', Rev: 3, Len: 312
+20:872  0:000    2. BB784770: 'FPDT', 'A M I', Rev: 1, Len: 68
+20:872  0:000    3. BB7847B8: 'FIDT', 'A M I', Rev: 1, Len: 156
+20:872  0:000    4. BB784858: 'MCFG', 'A M I', Rev: 1, Len: 60
+20:872  0:000    5. BB79B138: 'ASF!', ' HCG', Rev: 32, Len: 160
+20:872  0:000    6. BB7848F0: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+20:872  0:000    7. BB784C60: 'UEFI', 'A M I', Rev: 1, Len: 66
+20:872  0:000    8. BB784CA8: 'HPET', 'A M I', Rev: 1, Len: 56
+20:872  0:000    9. BB784CE0: 'MSCT', 'A M I', Rev: 1, Len: 144
+20:872  0:000    10. BB784D70: 'SLIT', 'A M I', Rev: 1, Len: 45
+20:872  0:000    11. BB784DA0: 'SRAT', 'A M I', Rev: 3, Len: 4440
+20:872  0:000    12. BB785EF8: 'WDDT', 'A M I', Rev: 1, Len: 64
+20:872  0:000    13. BB785F38: 'SSDT', 'PmMgt', Rev: 2, Len: 86465
+20:872  0:000    14. BB79B100: 'BGRT', 'A M I', Rev: 1, Len: 56
+20:872  0:000    Tables in Rsdt: 15
+20:872  0:000    0. BB74E140: 'FACP', 'A M I', Rev: 2, Len: 132
+20:872  0:000        (Dsdt: BB74E1C8, Facs: BD5E5F40)
+20:872  0:000        BB74E1C8: 'DSDT', 'A M I', Rev: 2, Len: 222048
+20:876  0:003        BD5E5F40: 'FACS', Ver: 0, Len: 64
+20:876  0:000    1. BB784638: 'APIC', 'A M I', Rev: 3, Len: 312
+20:876  0:000    2. BB784770: 'FPDT', 'A M I', Rev: 1, Len: 68
+20:876  0:000    3. BB7847B8: 'FIDT', 'A M I', Rev: 1, Len: 156
+20:876  0:000    4. BB784858: 'MCFG', 'A M I', Rev: 1, Len: 60
+20:876  0:000    5. BB79B138: 'ASF!', ' HCG', Rev: 32, Len: 160
+20:876  0:000    6. BB7848F0: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+20:876  0:000    7. BB784C60: 'UEFI', 'A M I', Rev: 1, Len: 66
+20:876  0:000    8. BB784CA8: 'HPET', 'A M I', Rev: 1, Len: 56
+20:876  0:000    9. BB784CE0: 'MSCT', 'A M I', Rev: 1, Len: 144
+20:876  0:000    10. BB784D70: 'SLIT', 'A M I', Rev: 1, Len: 45
+20:876  0:000    11. BB784DA0: 'SRAT', 'A M I', Rev: 3, Len: 4440
+20:876  0:000    12. BB785EF8: 'WDDT', 'A M I', Rev: 1, Len: 64
+20:876  0:000    13. BB785F38: 'SSDT', 'PmMgt', Rev: 2, Len: 86465
+20:876  0:000    14. BB79B100: 'BGRT', 'A M I', Rev: 1, Len: 56
+20:876  0:000  Found UEFI Acpi 2.0 RSDP at BB74E000
+20:876  0:000  Saving ACPI tables from RSDP BB74E000 to EFI\CLOVER\ACPI\origin ...
+20:876  0:000   BB74E000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+20:890  0:013    (Xsdt: BB74E090, Rsdt: BB74E028)
+20:890  0:000    BB74E090: 'XSDT', 'A M I', Rev: 1, Len: 156 -> XSDT.aml
+20:911  0:021    BB74E028: 'RSDT', 'A M I', Rev: 1, Len: 96 -> RSDT.aml
+20:931  0:020    Tables in Xsdt: 15
+20:931  0:000    0. BB784528: 'FACP', 'A M I', Rev: 5, Len: 268 -> FACP.aml
+20:954  0:023        (Dsdt: BB74E1C8, Facs: BD5E5F80, XDsdt: BB74E1C8, XFacs: 0)
+20:954  0:000        BB74E1C8: 'DSDT', 'A M I', Rev: 2, Len: 222048 -> DSDT.aml
+20:985  0:030        BD5E5F80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+21:005  0:019    1. BB784638: 'APIC', 'A M I', Rev: 3, Len: 312 -> APIC.aml
+21:032  0:027    2. BB784770: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+21:057  0:024    3. BB7847B8: 'FIDT', 'A M I', Rev: 1, Len: 156 -> FIDT.aml
+21:076  0:019    4. BB784858: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+21:099  0:022    5. BB79B138: 'ASF!', ' HCG', Rev: 32, Len: 160 -> ASF!.aml
+21:121  0:021    6. BB7848F0: 'SSDT', 'SataTabl', Rev: 1, Len: 877 -> SSDT-0-SataTabl.aml
+21:146  0:025    7. BB784C60: 'UEFI', 'A M I', Rev: 1, Len: 66 -> UEFI.aml
+21:169  0:022    8. BB784CA8: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.aml
+21:194  0:024    9. BB784CE0: 'MSCT', 'A M I', Rev: 1, Len: 144 -> MSCT.aml
+21:217  0:023    10. BB784D70: 'SLIT', 'A M I', Rev: 1, Len: 45 -> SLIT.aml
+21:243  0:025    11. BB784DA0: 'SRAT', 'A M I', Rev: 3, Len: 4440 -> SRAT.aml
+21:265  0:022    12. BB785EF8: 'WDDT', 'A M I', Rev: 1, Len: 64 -> WDDT.aml
+21:291  0:026    13. BB785F38: 'SSDT', 'PmMgt', Rev: 2, Len: 86465 -> SSDT-1-PmMgt.aml
+21:327  0:036    14. BB79B100: 'BGRT', 'A M I', Rev: 1, Len: 56 -> BGRT.aml
+21:341  0:013    Tables in Rsdt: 15
+21:341  0:000    0. BB74E140: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
+21:364  0:022        (Dsdt: BB74E1C8, Facs: BD5E5F40)
+21:364  0:000        BB74E1C8: 'DSDT', 'A M I', Rev: 2, Len: 222048
+21:368  0:003        BD5E5F40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+21:392  0:023    1. BB784638: 'APIC', 'A M I', Rev: 3, Len: 312
+21:392  0:000    2. BB784770: 'FPDT', 'A M I', Rev: 1, Len: 68
+21:392  0:000    3. BB7847B8: 'FIDT', 'A M I', Rev: 1, Len: 156
+21:392  0:000    4. BB784858: 'MCFG', 'A M I', Rev: 1, Len: 60
+21:392  0:000    5. BB79B138: 'ASF!', ' HCG', Rev: 32, Len: 160
+21:392  0:000    6. BB7848F0: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+21:392  0:000    7. BB784C60: 'UEFI', 'A M I', Rev: 1, Len: 66
+21:392  0:000    8. BB784CA8: 'HPET', 'A M I', Rev: 1, Len: 56
+21:392  0:000    9. BB784CE0: 'MSCT', 'A M I', Rev: 1, Len: 144
+21:392  0:000    10. BB784D70: 'SLIT', 'A M I', Rev: 1, Len: 45
+21:392  0:000    11. BB784DA0: 'SRAT', 'A M I', Rev: 3, Len: 4440
+21:392  0:000    12. BB785EF8: 'WDDT', 'A M I', Rev: 1, Len: 64
+21:392  0:000    13. BB785F38: 'SSDT', 'PmMgt', Rev: 2, Len: 86465
+21:392  0:000    14. BB79B100: 'BGRT', 'A M I', Rev: 1, Len: 56
+21:392  0:000  Found UEFI Acpi 1.0 RSDP at BB74E000
+21:392  0:000  Printing ACPI tables from RSDP BB74E000 ...
+21:392  0:000   BB74E000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+21:392  0:000    (Xsdt: BB74E090, Rsdt: BB74E028)
+21:392  0:000    BB74E090: 'XSDT', 'A M I', Rev: 1, Len: 156
+21:392  0:000    BB74E028: 'RSDT', 'A M I', Rev: 1, Len: 96
+21:392  0:000    Tables in Xsdt: 15
+21:392  0:000    0. BB784528: 'FACP', 'A M I', Rev: 5, Len: 268
+21:392  0:000        (Dsdt: BB74E1C8, Facs: BD5E5F80, XDsdt: BB74E1C8, XFacs: 0)
+21:392  0:000        BB74E1C8: 'DSDT', 'A M I', Rev: 2, Len: 222048
+21:396  0:003        BD5E5F80: 'FACS', Ver: 2, Len: 64
+21:396  0:000    1. BB784638: 'APIC', 'A M I', Rev: 3, Len: 312
+21:396  0:000    2. BB784770: 'FPDT', 'A M I', Rev: 1, Len: 68
+21:396  0:000    3. BB7847B8: 'FIDT', 'A M I', Rev: 1, Len: 156
+21:396  0:000    4. BB784858: 'MCFG', 'A M I', Rev: 1, Len: 60
+21:396  0:000    5. BB79B138: 'ASF!', ' HCG', Rev: 32, Len: 160
+21:396  0:000    6. BB7848F0: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+21:396  0:000    7. BB784C60: 'UEFI', 'A M I', Rev: 1, Len: 66
+21:396  0:000    8. BB784CA8: 'HPET', 'A M I', Rev: 1, Len: 56
+21:396  0:000    9. BB784CE0: 'MSCT', 'A M I', Rev: 1, Len: 144
+21:396  0:000    10. BB784D70: 'SLIT', 'A M I', Rev: 1, Len: 45
+21:396  0:000    11. BB784DA0: 'SRAT', 'A M I', Rev: 3, Len: 4440
+21:396  0:000    12. BB785EF8: 'WDDT', 'A M I', Rev: 1, Len: 64
+21:396  0:000    13. BB785F38: 'SSDT', 'PmMgt', Rev: 2, Len: 86465
+21:396  0:000    14. BB79B100: 'BGRT', 'A M I', Rev: 1, Len: 56
+21:396  0:000    Tables in Rsdt: 15
+21:396  0:000    0. BB74E140: 'FACP', 'A M I', Rev: 2, Len: 132
+21:396  0:000        (Dsdt: BB74E1C8, Facs: BD5E5F40)
+21:396  0:000        BB74E1C8: 'DSDT', 'A M I', Rev: 2, Len: 222048
+21:400  0:003        BD5E5F40: 'FACS', Ver: 0, Len: 64
+21:400  0:000    1. BB784638: 'APIC', 'A M I', Rev: 3, Len: 312
+21:400  0:000    2. BB784770: 'FPDT', 'A M I', Rev: 1, Len: 68
+21:400  0:000    3. BB7847B8: 'FIDT', 'A M I', Rev: 1, Len: 156
+21:400  0:000    4. BB784858: 'MCFG', 'A M I', Rev: 1, Len: 60
+21:400  0:000    5. BB79B138: 'ASF!', ' HCG', Rev: 32, Len: 160
+21:400  0:000    6. BB7848F0: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+21:400  0:000    7. BB784C60: 'UEFI', 'A M I', Rev: 1, Len: 66
+21:400  0:000    8. BB784CA8: 'HPET', 'A M I', Rev: 1, Len: 56
+21:400  0:000    9. BB784CE0: 'MSCT', 'A M I', Rev: 1, Len: 144
+21:400  0:000    10. BB784D70: 'SLIT', 'A M I', Rev: 1, Len: 45
+21:400  0:000    11. BB784DA0: 'SRAT', 'A M I', Rev: 3, Len: 4440
+21:400  0:000    12. BB785EF8: 'WDDT', 'A M I', Rev: 1, Len: 64
+21:400  0:000    13. BB785F38: 'SSDT', 'PmMgt', Rev: 2, Len: 86465
+21:400  0:000    14. BB79B100: 'BGRT', 'A M I', Rev: 1, Len: 56
